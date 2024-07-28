@@ -1,10 +1,6 @@
 package com.vitorthemyth.leetcodecrashcourse.code_challenges.easy
 
-import kotlin.math.sqrt
-
 class LongestCommonPrefix {
-
-
     fun longestCommonPrefix(strs: Array<String>): String {
         if (strs.isEmpty()) return ""
         val roleModel = strs.first()
