@@ -23,15 +23,6 @@ class MergeSortedLists {
     }
 }
 
-
- //list1 = [4] and list2 = [].
-/*
-       dummy: -1,1,1,2,3,4
-       merged: 4
-
- */
-
-
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
