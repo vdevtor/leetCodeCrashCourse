@@ -18,18 +18,5 @@ class FirstOccurrence {
 //FIND THE INDEX OF THE FIRST OCCURRENCE GIVEN TWO STRINGS
 //DADA DUAS STRINGS ENCONTRAR O INDEX DA OCORRÊNCIA
 
-fun searchInsert(nums: IntArray, target: Int): Int {
-    if (nums.isEmpty()) return 0
-    if (nums.size < target) {
-        for (i in nums.size - 1 downTo 0) {
-            if (nums[i] == target) return i
-        }
-    } else {
-        for (i in nums.indices) {
-            if (nums[i] >= target) return i
-        }
-    }
-    return nums.size
-}
 
 
